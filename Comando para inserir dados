@@ -1,0 +1,35 @@
+## Primeiro você precisa instalar no terminal do seu vscode o
+# pip install pyautogui
+# pip install time
+#   ATENÇÃO = Para saber a direção do seu mouse, você pode usar o código que coloquei na aba desse arquivo. (cada tela tem um tamanho especifico)
+#  ATENÇÃO = Você precisa ter a planilha baixada
+
+
+import pyautogui
+
+
+# Abrir a ferramenta / sistema / programa
+pyautogui.PAUSE = 1.5
+
+pyautogui.press('Win')
+pyautogui.write("login.xlsx")
+pyautogui.press("Backspace")
+pyautogui.press("enter")
+
+
+
+import time
+
+time.sleep(1)
+
+# preencher login
+
+pyautogui.click(x=575, y=363)
+
+pyautogui.write ("Raphael.Python")
+pyautogui.click(x=646, y=444)
+pyautogui.write("Senha123")
+pyautogui.click(x=554, y=587)
+
+
+
