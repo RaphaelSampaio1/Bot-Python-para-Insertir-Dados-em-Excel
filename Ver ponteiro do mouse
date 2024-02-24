@@ -1,0 +1,10 @@
+import time
+import pyautogui
+
+time.sleep(5)
+ponteiro =pyautogui.position()
+print (ponteiro)
+
+## O tempo para você direcionar o mouse na posição que deseja selecionar e sairá no seu terminal o valor
+
+
